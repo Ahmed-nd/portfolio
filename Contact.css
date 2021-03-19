@@ -133,13 +133,3 @@
 .u-section-2 .u-icon-2 {
   height: 100%;
 }
-
-@media (max-width: 1199px) {
-  .u-section-2 .u-icon-1 {
-    color: rgb(0, 122, 185) !important;
-  }
-
-  .u-section-2 .u-icon-2 {
-    color: rgb(0, 137, 203) !important;
-  }
-}
