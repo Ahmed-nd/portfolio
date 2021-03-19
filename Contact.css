@@ -27,10 +27,11 @@
 
 .u-section-1 .u-social-icons-1 {
   white-space: nowrap;
-  height: 38px;
+  height: 36px;
   min-height: 16px;
-  width: 97px;
+  width: 91px;
   min-width: 52px;
+  animation-duration: 1000ms;
   margin: 30px auto 0;
 }
 
