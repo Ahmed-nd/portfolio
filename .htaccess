@@ -1,0 +1,9 @@
+# Set cache control for Google Fonts and images
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css)$">
+    Header set Cache-Control "max-age=31536000, public"
+  </FilesMatch>
+  <FilesMatch "\.(jpg|jpeg|png|gif)$">
+    Header set Cache-Control "max-age=604800, public"
+  </FilesMatch>
+</IfModule>
