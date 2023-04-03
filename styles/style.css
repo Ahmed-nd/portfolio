@@ -250,16 +250,10 @@ body {
   font-size: 18px;
   margin-bottom: 1rem;
 }
-
-.contact-form-label {
-  padding: 1rem;
-}
-.contact-form-label p {
-  margin-bottom: 1rem;
-}
-.contact-form-submit {
-  padding: 1rem;
-  margin-top: 1rem;
+.contact-form {
+  width: 640px;
+  height:900px;
+  margin-top: 3rem;
 }
 #resume > div {
   margin-top: 4rem;
